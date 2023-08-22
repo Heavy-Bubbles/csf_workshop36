@@ -1,0 +1,7 @@
+<table>
+    <tr *ngFor="let c of cities">
+        <td>
+            <a [routerLink]="['/weather', c]">{{c}}</a>
+        </td>
+    </tr>
+</table>
